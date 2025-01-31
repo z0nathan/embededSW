@@ -1,0 +1,19 @@
+#ball acceleration simulation
+
+on STM32. using sh1106 & rotary encoder.
+
+
+**stratege used to draw the ball on sh1106..**
+the ball was 8x8 matirx. 
+row can be continuously transferred to sh1106, but page(column) is discrete..
+So, each column of the ball was shifted according to the position..
+
+
+
+
+**movement of the ball**
+ball should accelerate in the direction of encoder, and bounce when facing wall...
+
+
+
+
